@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom"
 
 export function Navbar() {
   return (
-    <NavbarBs className="bg-white shadow-sm mb-3"> 
+    <NavbarBs sticky="top" className="bg-white shadow-sm mb-3"> 
    
   <Container>
-    <Nav>
+    <Nav className="me-auto">
 <Nav.Link to="/" as={NavLink}>
   Home
 </Nav.Link>
@@ -17,6 +17,10 @@ export function Navbar() {
   About
 </Nav.Link>
     </Nav>
+    <button>
+    <img src="/cart-icon.png" alt="Cart" style={{ width: '50px', height: '50px' }} />
+     </button>
+     <div className="rounded-circle bg-danger d-flex justify-content-center align-items-center" style={{ color: "white", width: "1.5rem", height: "1.5rem", position: "absolute", bottom: 4, right: 120, transform: "translate(25%, 25%)"}}>3</div>
   </Container>
   </NavbarBs>
   )
