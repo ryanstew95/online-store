@@ -1,2 +1,122 @@
-// array of obj keys id name price and 
-// imgUrl importing from /imgs/image.jpg
+[
+  {
+    "id": 1,
+    "name": "Handcrafted Jewelry",
+    "price": 29.99,
+    "imgUrl": "/imgs/jewelry.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vintage Clothing",
+    "price": 49.99,
+    "imgUrl": "/imgs/vintage_clothing.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Organic Skincare Products",
+    "price": 39.99,
+    "imgUrl": "/imgs/skincare.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Artisanal Candles",
+    "price": 19.99,
+    "imgUrl": "/imgs/candles.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Handmade Pottery",
+    "price": 34.99,
+    "imgUrl": "/imgs/pottery.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Customized Phone Cases",
+    "price": 14.99,
+    "imgUrl": "/imgs/phone_cases.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Eco-friendly Reusable Water Bottles",
+    "price": 12.99,
+    "imgUrl": "/imgs/water_bottles.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Specialty Teas and Coffees",
+    "price": 9.99,
+    "imgUrl": "/imgs/tea_coffee.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Succulent Plants and Terrariums",
+    "price": 24.99,
+    "imgUrl": "/imgs/succulents.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hand-painted Canvas Art",
+    "price": 79.99,
+    "imgUrl": "/imgs/canvas_art.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Gourmet Chocolates and Confections",
+    "price": 17.99,
+    "imgUrl": "/imgs/chocolates.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Handmade Leather Goods",
+    "price": 64.99,
+    "imgUrl": "/imgs/leather_goods.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Specialty Spices and Seasoning Blends",
+    "price": 8.99,
+    "imgUrl": "/imgs/spices.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Personalized Stationery and Greeting Cards",
+    "price": 19.99,
+    "imgUrl": "/imgs/stationery.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Unique Home Decor Items",
+    "price": 49.99,
+    "imgUrl": "/imgs/home_decor.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Fair Trade Handbags and Accessories",
+    "price": 39.99,
+    "imgUrl": "/imgs/handbags.jpg"
+  },
+  {
+    "id": 17,
+    "name": "DIY Craft Kits",
+    "price": 29.99,
+    "imgUrl": "/imgs/craft_kits.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Vintage Vinyl Records and Music Memorabilia",
+    "price": 39.99,
+    "imgUrl": "/imgs/vinyl_records.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Handmade Soaps and Bath Bombs",
+    "price": 12.99,
+    "imgUrl": "/imgs/soaps.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Artisanal Cheeses and Charcuterie Boards",
+    "price": 29.99,
+    "imgUrl": "/imgs/cheeses.jpg"
+  }
+]
