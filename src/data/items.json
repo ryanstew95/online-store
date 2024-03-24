@@ -3,120 +3,147 @@
     "id": 1,
     "name": "Handcrafted Jewelry",
     "price": 29.99,
-    "imgUrl": "/imgs/jewelry.jpg"
+    "imgUrl": "/imgs/jewelry.jpg",
+    "vender": "Gems & Treasures Boutique"
   },
   {
     "id": 2,
     "name": "Vintage Clothing",
     "price": 49.99,
-    "imgUrl": "/imgs/vintage_clothing.jpg"
+    "imgUrl": "/imgs/vintage_clothing.jpg",
+    "vender": "Retro Revival Apparel"
   },
   {
     "id": 3,
     "name": "Organic Skincare Products",
     "price": 39.99,
-    "imgUrl": "/imgs/skincare.jpg"
+    "imgUrl": "/imgs/skincare.jpg",
+    "vender": "Nature's Glow Skincare"
   },
   {
     "id": 4,
     "name": "Artisanal Candles",
     "price": 19.99,
-    "imgUrl": "/imgs/candles.jpg"
+    "imgUrl": "/imgs/candles.jpg",
+    "vender": "Flicker & Flame Crafts"
   },
   {
     "id": 5,
     "name": "Handmade Pottery",
     "price": 34.99,
-    "imgUrl": "/imgs/pottery.jpg"
+    "imgUrl": "/imgs/pottery.jpg",
+    "vender": "Clay Creations Studio"
   },
   {
     "id": 6,
     "name": "Customized Phone Cases",
     "price": 14.99,
-    "imgUrl": "/imgs/phone_cases.jpg"
+    "imgUrl": "/imgs/phone_cases.jpg",
+    "vender": "TechArt Designs"
   },
   {
     "id": 7,
     "name": "Eco-friendly Reusable Water Bottles",
     "price": 12.99,
-    "imgUrl": "/imgs/water_bottles.jpg"
+    "imgUrl": "/imgs/water_bottles.jpg",
+    "vender": "EcoHydrate Solutions"
   },
   {
     "id": 8,
     "name": "Specialty Teas and Coffees",
     "price": 9.99,
-    "imgUrl": "/imgs/tea_coffee.jpg"
+    "imgUrl": "/imgs/tea_coffee.jpg",
+    "vender": "Sip & Savor Teahouse"
   },
   {
     "id": 9,
     "name": "Succulent Plants and Terrariums",
     "price": 24.99,
-    "imgUrl": "/imgs/succulents.jpg"
+    "imgUrl": "/imgs/succulents.jpg",
+    "vender": "Green Thumb Gardens"
   },
   {
     "id": 10,
     "name": "Hand-painted Canvas Art",
     "price": 79.99,
-    "imgUrl": "/imgs/canvas_art.jpg"
+    "imgUrl": "/imgs/canvas_art.jpg",
+    "vender": "Brushstrokes Gallery"
   },
   {
     "id": 11,
     "name": "Gourmet Chocolates and Confections",
     "price": 17.99,
-    "imgUrl": "/imgs/chocolates.jpg"
+    "imgUrl": "/imgs/chocolates.jpg",
+    "vender": "Sweet Indulgence Confections"
   },
   {
     "id": 12,
     "name": "Handmade Leather Goods",
     "price": 64.99,
-    "imgUrl": "/imgs/leather_goods.jpg"
+    "imgUrl": "/imgs/leather_goods.jpg",
+    "vender": "LeatherCraft Studios"
   },
   {
     "id": 13,
     "name": "Specialty Spices and Seasoning Blends",
     "price": 8.99,
-    "imgUrl": "/imgs/spices.jpg"
+    "imgUrl": "/imgs/spices.jpg",
+    "vender": "Spice Master Emporium"
   },
   {
     "id": 14,
     "name": "Personalized Stationery and Greeting Cards",
     "price": 19.99,
-    "imgUrl": "/imgs/stationery.jpg"
+    "imgUrl": "/imgs/stationery.jpg",
+    "vender": "PaperCraft Creations"
   },
   {
     "id": 15,
     "name": "Unique Home Decor Items",
     "price": 49.99,
-    "imgUrl": "/imgs/home_decor.jpg"
+    "imgUrl": "/imgs/home_decor.jpg",
+    "vender": "Decor Delights Emporium"
   },
   {
     "id": 16,
     "name": "Fair Trade Handbags and Accessories",
     "price": 39.99,
-    "imgUrl": "/imgs/handbags.jpg"
+    "imgUrl": "/imgs/handbags.jpg",
+    "vender": "Global Threads Marketplace"
   },
   {
     "id": 17,
     "name": "DIY Craft Kits",
     "price": 29.99,
-    "imgUrl": "/imgs/craft_kits.jpg"
+    "imgUrl": "/imgs/craft_kits.jpg",
+    "vender": "Crafty Creations Kits"
   },
   {
     "id": 18,
     "name": "Vintage Vinyl Records and Music Memorabilia",
     "price": 39.99,
-    "imgUrl": "/imgs/vinyl_records.jpg"
+    "imgUrl": "/imgs/vinyl_records.jpg",
+    "vender": "Retro Sound Emporium"
   },
   {
     "id": 19,
     "name": "Handmade Soaps and Bath Bombs",
     "price": 12.99,
-    "imgUrl": "/imgs/soaps.jpg"
+    "imgUrl": "/imgs/soaps.jpg",
+    "vender": "Suds & Bubbles Apothecary"
   },
   {
     "id": 20,
     "name": "Artisanal Cheeses and Charcuterie Boards",
     "price": 29.99,
-    "imgUrl": "/imgs/cheeses.jpg"
+    "imgUrl": "/imgs/cheeses.jpg",
+    "vender": "Cheese & Charcuterie Co."
+  },
+  {
+    "id": 21,
+    "name": "Crochet Dolls",
+    "price": 18.99,
+    "imgUrl": "/imgs/crochet.jpg",
+    "vender": "Cozy Crochet Creations"
   }
 ]
