@@ -1,4 +1,4 @@
-import React, { createContext, ReactNode, useContext, useState } from "react";
+import { createContext, ReactNode, useContext, useState } from "react";
 import { ShoppingCart } from "../components/ShoppingCart"
 
 type ShoppingCartProviderProps = {
@@ -83,9 +83,23 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   const removeFromCart = (id: number) => {
     setCartItems((currItems) => {
-      return currItems.filter((item) => item.id !== id);
+      const itemIndex = currItems.findIndex((item) => item.id === id);
+      if (itemIndex !== -1) {
+        const updatedItems = [...currItems];
+        const currentItem = updatedItems[itemIndex];
+        if (currentItem.quantity === 1) {
+          // Remove the item from the cart if quantity is 1
+          updatedItems.splice(itemIndex, 1);
+        } else {
+          // Decrease the quantity of the item by 1
+          updatedItems[itemIndex] = { ...currentItem, quantity: currentItem.quantity - 1 };
+        }
+        return updatedItems;
+      }
+      return currItems;
     });
   };
+  
 
   const contextValue: ShoppingCartContextType = {
     openCart,
