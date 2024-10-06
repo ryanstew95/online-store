@@ -1,31 +1,30 @@
-# React + TypeScript + Vite
+# Handcrafted Harbor
+# React + TypeScript + Vite App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Our store, Handcrafted Harbor, offers a curated collection of handcrafted treasures ranging from unique jewelry pieces and vintage clothing to eco-friendly home decor items, providing customers with an eclectic mix of artisanal products that celebrate creativity and craftsmanship.
 
-Currently, two official plugins are available:
+## Final Product
+## Home
+![home](public/home.png)
+## Store
+![store](public/store.png)
+## About
+![about](public/about.png)
+## Cart
+![cart](public/cart.png)
+## Check out
+![thanks](public/thanks.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dependencies
+    - bootstrap: 5.3.3
+    - react: 18.2.0
+    - react-bootstrap: 2.10.2
+    - react-dom: 18.2.0
+    - react-router-dom: 6.22.3
+    - tailwind: 4.0.0
 
-## Expanding the ESLint configuration
+## Starting the Server
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# online-store
+- Install dependencies: npm install
+ - Run `npm run dev` in Terminal
+ - Visit: http://localhost:5173
